@@ -21,6 +21,8 @@ Installer les dépendances :
 
     pip install pandas requests sqlalchemy psycopg2-binary
 
+Creer une base de donnees PostgreSQL en se rendant sur www.render.com et remplacer les varibales 
+
 ▶️ Exécution du projet
 
 Lancer Jupyter :
