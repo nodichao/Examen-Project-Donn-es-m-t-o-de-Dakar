@@ -1,0 +1,33 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "sshOptions": {
+                "port": 5432
+            },
+            "server": "localhost",
+            "driver": "CockroachDB",
+            "connectString": "postgresql://meteo_dakar_db_7zu8_user:egvoYgirUEiH43uZ7WtAYplJ8gM6MGAL@dpg-d657f38gjchc73803sbg-a.frankfurt-postgres.render.com/meteo_dakar_db_7zu8",
+            "name": "db_connect"
+        },
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "PostgreSQL",
+            "name": "db_connect",
+            "connectString": "postgresql://meteo_dakar_db_7zu8_user:egvoYgirUEiH43uZ7WtAYplJ8gM6MGAL@dpg-d657f38gjchc73803sbg-a.frankfurt-postgres.render.com/meteo_dakar_db_7zu8"
+        }
+    ]
+}
